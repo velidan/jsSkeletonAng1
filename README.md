@@ -21,7 +21,13 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <b>Karma + Jasmine</b> (Protractor in future)
 
+/src (in all main folders: server | backend | frontend) - source files that will be compiled by bundle systems
+/buil (in all main folders: server | backend | frontend) - builded files 
 
+/engine  - engine folder
+
+/engine/server - server files
 
 
 <i>After repo cloning execute -  <b>npm i</b> </i>
+To server start please launch /engine/server/built/server.js by executing  (node server.js)  or  (nodemon server.js) if you use nodemon
