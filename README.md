@@ -3,7 +3,7 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <h2> Boilerplate with: </h2>
 
-<b>Angular</b>  on frontend
+<b>Angular 1  (1.5.3)</b>  on frontend
 
 <b>Node + koa</b>   on backend   (WebSocket ready  server    - ws)
 
