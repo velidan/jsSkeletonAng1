@@ -1,7 +1,7 @@
 # jsSkeletonAng1
 Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
-<h2> Boilerplate with: </h2>
+<h2> Boilerplate include: </h2>
 
 <b>Angular 1  (1.5.3)</b>  on frontend
 
