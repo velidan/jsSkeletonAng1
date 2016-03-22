@@ -22,4 +22,6 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 <b>Karma + Jasmine</b> (Protractor in future)
 
 
+
+
 <i>After repo cloning execute -  <b>npm i</b> </i>
