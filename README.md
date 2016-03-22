@@ -23,7 +23,7 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 /src (in all main folders: server | backend | frontend) - source files that will be compiled by bundle systems<br>
 
-/buil (in all main folders: server | backend | frontend) - builded files <br>
+/built (in all main folders: server | backend | frontend) - builded files <br>
 
 /engine  - engine folder <br>
 
