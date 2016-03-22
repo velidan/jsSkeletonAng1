@@ -11,7 +11,7 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <b>Babel + Webpack</b>
 
-<b>Gulp</b> (building app from src files)
+<b>Gulp</b>
 
 <b>Stylus</b> (Retina - ready  auto sprites)
 
