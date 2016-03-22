@@ -3,20 +3,20 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <h2> Boilerplate with: </h2>
 
-Angular  on frontend
+<b>Angular</b>  on frontend
 
-Node + koa   on backend   (WebSocket ready  server    - ws)
+<b>Node + koa</b>   on backend   (WebSocket ready  server    - ws)
 
-Typescript + TSD + ES6 integrate with front and backend
+<b>Typescript + TSD + ES6</b> integrate with front and backend
 
-Babel + Webpack  
+<b>Babel + Webpack</b>
 
-Gulp (building app from src files)
+<b>Gulp</b> (building app from src files)
 
-Stylus (Retina - ready  auto sprites)
+<b>Stylus</b> (Retina - ready  auto sprites)
 
-Bootstrap
+<b>Bootstrap</b>
 
-Jade engine on front end and back end
+<b>Jade engine on front end and back end</b>
 
-Karma + Jasmine (Protractor in future)
+<b>Karma + Jasmine</b> (Protractor in future)
