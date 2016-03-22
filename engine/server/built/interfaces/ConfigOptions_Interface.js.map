@@ -1,0 +1,1 @@
+{"version":3,"sources":["interfaces/ConfigOptions_Interface.ts"],"names":[],"mappings":";;AAOO,IAAI,KAAJ","file":"interfaces/ConfigOptions_Interface.js","sourcesContent":["interface ConfigOptions_Interface {\r\n    port : number;\r\n    enginePath : string;\r\n    frontendPath : string;\r\n    backendPath : string;\r\n}\r\n\r\nexport a = \"dsf\";"],"sourceRoot":"/source/"}

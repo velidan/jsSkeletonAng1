@@ -1,0 +1,36 @@
+doctype html
+html(lang="en", data-ng-app="mainApp")
+  head
+    title= "someProject"
+    link(rel='shortcut icon', href='/images/favicon.png', type='image/x-icon') 
+    link(rel="stylesheet" type="text/css" href="/thirdparty/css/bootstrap.min.css")
+    link(rel="stylesheet" type="text/css" href="/css/app.min.css")
+ 
+  block header
+    body
+        div(class="container-fluid")
+          div(class="row")
+            nav(class="navbar navbar-default")
+                a(class="navbar-brand pull-left", href="#/")
+                    img(alt="brand", src="/images/favicon.png")
+                ul(class="nav")
+                    li(class="active pull-left s_1")
+                        a(href="#/") Home
+                    li(class="divider-vertical pull-left") 
+                    li(class="pull-left")
+                        a(href="#/about") About
+                    li(class="divider-vertical pull-left")
+                    li(class="pull-left")
+                        a(href="#/contacts") Contacts
+                        
+           
+                    
+            
+        block top
+        div(data-ng-view)
+        block body
+
+        block footer
+        script(type='text/javascript',src="/thirdparty/js/angular.min.js")
+        script(type='text/javascript',src="/thirdparty/js/angular-route.min.js")
+        script(type='text/javascript',src="/app/app.min.js")

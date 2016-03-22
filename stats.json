@@ -1,0 +1,971 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.12.14",
+  "hash": "0d30f03675c7ebeb34ef",
+  "time": 6686,
+  "publicPath": "./engine/frontend/built/app/",
+  "assetsByChunkName": {
+    "main": [
+      "app.min.js",
+      "app.min.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "app.min.js",
+      "size": 12268,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "app.min.js.map",
+      "size": 14661,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 8513,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "app.min.js",
+        "app.min.js.map"
+      ],
+      "hash": "ce101e0fb5cdb202b2d1",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "name": "./engine/frontend/src/app/index.ts",
+          "index": 0,
+          "index2": 12,
+          "size": 467,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 24,
+            "building": 2585
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "/// <reference path=\"../../../../typings/tsd.d.ts\" />\n'use strict';\n\nvar utilClass = require('../jsStandard/utilities'),\n    util = new utilClass();\nangular.module('mainApp', ['ngRoute', 'indexModule', 'aboutModule', 'contactModule']);\nrequire('./routes/routes');\nvar moduleNames = ['index', 'about', 'contact'];\nutil.requireAndFireAngModule(moduleNames);\n//require('../modules/' + moduleName + '/' + moduleName + 'Module');\n//require('../modules/index/indexModule');"
+        },
+        {
+          "id": 1,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\jsStandard\\utilities.ts",
+          "name": "./engine/frontend/src/jsStandard/utilities.ts",
+          "index": 1,
+          "index2": 10,
+          "size": 1304,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "profile": {
+            "factory": 11,
+            "building": 665
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+              "module": "./engine/frontend/src/app/index.ts",
+              "moduleName": "./engine/frontend/src/app/index.ts",
+              "type": "cjs require",
+              "userRequest": "../jsStandard/utilities",
+              "loc": "4:16-50"
+            }
+          ],
+          "source": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\n/// <reference path=\"../../../../typings/tsd.d.ts\" />\n/**\r\n * Module with some useful stuff\r\n */\n\nvar Utility = function () {\n    function Utility() {\n        _classCallCheck(this, Utility);\n    }\n\n    _createClass(Utility, [{\n        key: 'requireAndFireAngModule',\n        value: function requireAndFireAngModule(moduleNames) {\n            moduleNames.forEach(function (moduleName) {\n                require('../modules/' + moduleName + '/' + moduleName + 'Module')(moduleName);\n            });\n        }\n    }]);\n\n    return Utility;\n}();\n\nmodule.exports = Utility;"
+        },
+        {
+          "id": 2,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "name": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "index": 2,
+          "index2": 9,
+          "size": 236,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\jsStandard\\utilities.ts",
+          "profile": {
+            "factory": 551,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\jsStandard\\utilities.ts",
+              "module": "./engine/frontend/src/jsStandard/utilities.ts",
+              "moduleName": "./engine/frontend/src/jsStandard/utilities.ts",
+              "type": "cjs require context",
+              "userRequest": "../modules",
+              "loc": "21:16-81"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\aboutModule.ts",
+          "name": "./engine/frontend/src/modules/about/aboutModule.ts",
+          "index": 3,
+          "index2": 2,
+          "size": 252,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "profile": {
+            "factory": 10,
+            "building": 544
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+              "module": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+              "moduleName": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+              "type": "context element",
+              "userRequest": "./about/aboutModule"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module', []);\n    require('./controllers/' + moduleName + 'Controller')(moduleName);\n};"
+        },
+        {
+          "id": 4,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers /^\\.\\/.*Controller$/",
+          "name": "./engine/frontend/src/modules/about/controllers ^\\.\\/.*Controller$",
+          "index": 4,
+          "index2": 1,
+          "size": 182,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\aboutModule.ts",
+          "profile": {
+            "factory": 505,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\aboutModule.ts",
+              "module": "./engine/frontend/src/modules/about/aboutModule.ts",
+              "moduleName": "./engine/frontend/src/modules/about/aboutModule.ts",
+              "type": "cjs require context",
+              "userRequest": "./controllers",
+              "loc": "8:4-57"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers\\aboutController.ts",
+          "name": "./engine/frontend/src/modules/about/controllers/aboutController.ts",
+          "index": 5,
+          "index2": 0,
+          "size": 305,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers /^\\.\\/.*Controller$/",
+          "profile": {
+            "factory": 445,
+            "building": 427
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers /^\\.\\/.*Controller$/",
+              "module": "./engine/frontend/src/modules/about/controllers ^\\.\\/.*Controller$",
+              "moduleName": "./engine/frontend/src/modules/about/controllers ^\\.\\/.*Controller$",
+              "type": "context element",
+              "userRequest": "./aboutController"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module').controller(moduleName + 'Controller', ['$scope', function ($scope) {\n        console.log(moduleName + 'Controller');\n    }]);\n};"
+        },
+        {
+          "id": 6,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\contactModule.ts",
+          "name": "./engine/frontend/src/modules/contact/contactModule.ts",
+          "index": 6,
+          "index2": 5,
+          "size": 252,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "profile": {
+            "factory": 10,
+            "building": 1049
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+              "module": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+              "moduleName": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+              "type": "context element",
+              "userRequest": "./contact/contactModule"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module', []);\n    require('./controllers/' + moduleName + 'Controller')(moduleName);\n};"
+        },
+        {
+          "id": 7,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers /^\\.\\/.*Controller$/",
+          "name": "./engine/frontend/src/modules/contact/controllers ^\\.\\/.*Controller$",
+          "index": 7,
+          "index2": 4,
+          "size": 184,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\contactModule.ts",
+          "profile": {
+            "factory": 1,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\contactModule.ts",
+              "module": "./engine/frontend/src/modules/contact/contactModule.ts",
+              "moduleName": "./engine/frontend/src/modules/contact/contactModule.ts",
+              "type": "cjs require context",
+              "userRequest": "./controllers",
+              "loc": "8:4-57"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers\\contactController.ts",
+          "name": "./engine/frontend/src/modules/contact/controllers/contactController.ts",
+          "index": 8,
+          "index2": 3,
+          "size": 305,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers /^\\.\\/.*Controller$/",
+          "profile": {
+            "factory": 445,
+            "building": 842
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers /^\\.\\/.*Controller$/",
+              "module": "./engine/frontend/src/modules/contact/controllers ^\\.\\/.*Controller$",
+              "moduleName": "./engine/frontend/src/modules/contact/controllers ^\\.\\/.*Controller$",
+              "type": "context element",
+              "userRequest": "./contactController"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module').controller(moduleName + 'Controller', ['$scope', function ($scope) {\n        console.log(moduleName + 'Controller');\n    }]);\n};"
+        },
+        {
+          "id": 9,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\indexModule.ts",
+          "name": "./engine/frontend/src/modules/index/indexModule.ts",
+          "index": 9,
+          "index2": 8,
+          "size": 252,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "profile": {
+            "factory": 11,
+            "building": 1490
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+              "module": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+              "moduleName": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+              "type": "context element",
+              "userRequest": "./index/indexModule"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module', []);\n    require('./controllers/' + moduleName + 'Controller')(moduleName);\n};"
+        },
+        {
+          "id": 10,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers /^\\.\\/.*Controller$/",
+          "name": "./engine/frontend/src/modules/index/controllers ^\\.\\/.*Controller$",
+          "index": 10,
+          "index2": 7,
+          "size": 182,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\indexModule.ts",
+          "profile": {
+            "factory": 3,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\indexModule.ts",
+              "module": "./engine/frontend/src/modules/index/indexModule.ts",
+              "moduleName": "./engine/frontend/src/modules/index/indexModule.ts",
+              "type": "cjs require context",
+              "userRequest": "./controllers",
+              "loc": "8:4-57"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers\\indexController.ts",
+          "name": "./engine/frontend/src/modules/index/controllers/indexController.ts",
+          "index": 11,
+          "index2": 6,
+          "size": 3800,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers /^\\.\\/.*Controller$/",
+          "profile": {
+            "factory": 4,
+            "building": 1273
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers /^\\.\\/.*Controller$/",
+              "module": "./engine/frontend/src/modules/index/controllers ^\\.\\/.*Controller$",
+              "moduleName": "./engine/frontend/src/modules/index/controllers ^\\.\\/.*Controller$",
+              "type": "context element",
+              "userRequest": "./indexController"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module').controller(moduleName + 'Controller', ['$scope', function ($scope) {\n        $scope.text = 'Hello World!';\n        console.log(moduleName + 'Controller');\n        /**\r\n         * Method for custom error expression\r\n         * @param {string} message -> message that will be showed to user on error\r\n         */\n        function CustomExpression(message) {\n            this.message = message;\n        }\n        //verify prime number\n        /**\r\n         * Check if number is prime\r\n         * @param {number} numberToVerify -> number that must pass prime number verify\r\n         */\n        /*\r\n        function isPrimeNumber(numberToVerify : number) {\r\n            if (!numberToVerify) {\r\n                throw new CustomExpression('Empty parameter in: \"isPrimeNumber\"');\r\n            }\r\n            else if (typeof numberToVerify !== 'number') {\r\n                throw new CustomExpression('Wrong type of parrameter in: \"isPrimeNumber\". Must be a number');\r\n            }\r\n            \r\n         \r\n            let delimeter : number = 2;\r\n            \r\n            while (numberToVerify > delimeter) {\r\n                if (numberToVerify % delimeter === 0) {\r\n                    return false;\r\n                } else {\r\n                     (delimeter > 3) ? delimeter += 2 : delimeter++;\r\n                }\r\n                \r\n            }\r\n            return true;\r\n            \r\n        }\r\n        \r\n          \r\n        try {\r\n             console.log(isPrimeNumber(137));\r\n            // console.log(isPrimeNumber(237));\r\n        } catch (e) {\r\n            console.log(e.message);\r\n        }*/\n        /*console.log(isPrime(137))\r\n        console.log(isPrime(237))*/\n        /*function removeDuplicate(arr) {\r\n            var exist = {},\r\n                outArr = [],\r\n                elem;\r\n                \r\n                for (var i = 0; i < arr.length; i++) {\r\n                    elem = arr[i];\r\n                    if (!exist[elem]) {\r\n                        outArr.push(elem);\r\n                        exist[elem] = true;\r\n                    }\r\n                    \r\n                }\r\n                return outArr;\r\n        }\r\n            \r\n            console.log(removeDuplicate([1,3,3,3,1,5,6,7,8,1]));*/\n        /* function swapNmuber(a,b) {\r\n             b = b - a;\r\n             a = b + a;\r\n             b = a - b;\r\n             \r\n             console.log(a, b);\r\n         }\r\n         \r\n         swapNmuber(10,5);*/\n        /*    function reverse(str) {\r\n               var tempArr = str.split(''),\r\n               resArr = [];\r\n               \r\n               for (var i = tempArr.length-1; i >= 0; i--) {\r\n                   resArr.push(tempArr[i])\r\n               }\r\n               \r\n               return resArr.join('');\r\n               \r\n            }\r\n            \r\n            console.log(reverse('some str'));*/\n        /*    function compareNumeric(a, b) {\r\n                return a - b;\r\n            }\r\n            \r\n            var arr = [1, 54,23,6];\r\n            console.log(arr.sort(compareNumeric));*/\n        /*  function reverseWords(str) {\r\n              return str.split(' ').reverse().join(' ').split('').reverse().join('');\r\n          }\r\n          \r\n          console.log(reverseWords(\"I am the good boy\"));*/\n        /* function fibonacci(a) {\r\n             var fibo = [0,1];\r\n             \r\n             if (a < 2) return 1;\r\n             \r\n             for (var i = 2; i <= a; i++) {\r\n                 fibo[i] = fibo[i - 1] + fibo[i - 2];\r\n             }\r\n             \r\n             return fibo[a];\r\n         }\r\n         \r\n         console.log(fibonacci(12));*/\n    }]);\n};"
+        },
+        {
+          "id": 12,
+          "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\routes\\routes.ts",
+          "name": "./engine/frontend/src/app/routes/routes.ts",
+          "index": 12,
+          "index2": 11,
+          "size": 792,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "profile": {
+            "factory": 12,
+            "building": 1214
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+              "module": "./engine/frontend/src/app/index.ts",
+              "moduleName": "./engine/frontend/src/app/index.ts",
+              "type": "cjs require",
+              "userRequest": "./routes/routes",
+              "loc": "7:0-26"
+            }
+          ],
+          "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function () {\n    'use strict';\n\n    var mainAppViewPath = '/app/views',\n        moduleViewPath = '/modules';\n    angular.module('mainApp').config(['$routeProvider', function ($routeProvider) {\n        $routeProvider.when('/', {\n            templateUrl: moduleViewPath + '/index/views/index.html',\n            controller: 'indexController'\n        }).when('/about', {\n            templateUrl: moduleViewPath + '/about/views/about.html',\n            controller: 'aboutController'\n        }).when('/contacts', {\n            templateUrl: moduleViewPath + '/contact/views/contact.html',\n            controller: 'contactController'\n        }).otherwise({\n            redirectTo: '/'\n        });\n    }]);\n}();"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "moduleName": "./engine/frontend/src/app/index.ts",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+      "name": "./engine/frontend/src/app/index.ts",
+      "index": 0,
+      "index2": 12,
+      "size": 467,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 24,
+        "building": 2585
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "/// <reference path=\"../../../../typings/tsd.d.ts\" />\n'use strict';\n\nvar utilClass = require('../jsStandard/utilities'),\n    util = new utilClass();\nangular.module('mainApp', ['ngRoute', 'indexModule', 'aboutModule', 'contactModule']);\nrequire('./routes/routes');\nvar moduleNames = ['index', 'about', 'contact'];\nutil.requireAndFireAngModule(moduleNames);\n//require('../modules/' + moduleName + '/' + moduleName + 'Module');\n//require('../modules/index/indexModule');"
+    },
+    {
+      "id": 1,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\jsStandard\\utilities.ts",
+      "name": "./engine/frontend/src/jsStandard/utilities.ts",
+      "index": 1,
+      "index2": 10,
+      "size": 1304,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+      "profile": {
+        "factory": 11,
+        "building": 665
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "module": "./engine/frontend/src/app/index.ts",
+          "moduleName": "./engine/frontend/src/app/index.ts",
+          "type": "cjs require",
+          "userRequest": "../jsStandard/utilities",
+          "loc": "4:16-50"
+        }
+      ],
+      "source": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\n/// <reference path=\"../../../../typings/tsd.d.ts\" />\n/**\r\n * Module with some useful stuff\r\n */\n\nvar Utility = function () {\n    function Utility() {\n        _classCallCheck(this, Utility);\n    }\n\n    _createClass(Utility, [{\n        key: 'requireAndFireAngModule',\n        value: function requireAndFireAngModule(moduleNames) {\n            moduleNames.forEach(function (moduleName) {\n                require('../modules/' + moduleName + '/' + moduleName + 'Module')(moduleName);\n            });\n        }\n    }]);\n\n    return Utility;\n}();\n\nmodule.exports = Utility;"
+    },
+    {
+      "id": 2,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+      "name": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+      "index": 2,
+      "index2": 9,
+      "size": 236,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\jsStandard\\utilities.ts",
+      "profile": {
+        "factory": 551,
+        "building": 5
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\jsStandard\\utilities.ts",
+          "module": "./engine/frontend/src/jsStandard/utilities.ts",
+          "moduleName": "./engine/frontend/src/jsStandard/utilities.ts",
+          "type": "cjs require context",
+          "userRequest": "../modules",
+          "loc": "21:16-81"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\aboutModule.ts",
+      "name": "./engine/frontend/src/modules/about/aboutModule.ts",
+      "index": 3,
+      "index2": 2,
+      "size": 252,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+      "profile": {
+        "factory": 10,
+        "building": 544
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "module": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "moduleName": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "type": "context element",
+          "userRequest": "./about/aboutModule"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module', []);\n    require('./controllers/' + moduleName + 'Controller')(moduleName);\n};"
+    },
+    {
+      "id": 4,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers /^\\.\\/.*Controller$/",
+      "name": "./engine/frontend/src/modules/about/controllers ^\\.\\/.*Controller$",
+      "index": 4,
+      "index2": 1,
+      "size": 182,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\aboutModule.ts",
+      "profile": {
+        "factory": 505,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\aboutModule.ts",
+          "module": "./engine/frontend/src/modules/about/aboutModule.ts",
+          "moduleName": "./engine/frontend/src/modules/about/aboutModule.ts",
+          "type": "cjs require context",
+          "userRequest": "./controllers",
+          "loc": "8:4-57"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers\\aboutController.ts",
+      "name": "./engine/frontend/src/modules/about/controllers/aboutController.ts",
+      "index": 5,
+      "index2": 0,
+      "size": 305,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers /^\\.\\/.*Controller$/",
+      "profile": {
+        "factory": 445,
+        "building": 427
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\about\\controllers /^\\.\\/.*Controller$/",
+          "module": "./engine/frontend/src/modules/about/controllers ^\\.\\/.*Controller$",
+          "moduleName": "./engine/frontend/src/modules/about/controllers ^\\.\\/.*Controller$",
+          "type": "context element",
+          "userRequest": "./aboutController"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module').controller(moduleName + 'Controller', ['$scope', function ($scope) {\n        console.log(moduleName + 'Controller');\n    }]);\n};"
+    },
+    {
+      "id": 6,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\contactModule.ts",
+      "name": "./engine/frontend/src/modules/contact/contactModule.ts",
+      "index": 6,
+      "index2": 5,
+      "size": 252,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+      "profile": {
+        "factory": 10,
+        "building": 1049
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "module": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "moduleName": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "type": "context element",
+          "userRequest": "./contact/contactModule"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module', []);\n    require('./controllers/' + moduleName + 'Controller')(moduleName);\n};"
+    },
+    {
+      "id": 7,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers /^\\.\\/.*Controller$/",
+      "name": "./engine/frontend/src/modules/contact/controllers ^\\.\\/.*Controller$",
+      "index": 7,
+      "index2": 4,
+      "size": 184,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\contactModule.ts",
+      "profile": {
+        "factory": 1,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\contactModule.ts",
+          "module": "./engine/frontend/src/modules/contact/contactModule.ts",
+          "moduleName": "./engine/frontend/src/modules/contact/contactModule.ts",
+          "type": "cjs require context",
+          "userRequest": "./controllers",
+          "loc": "8:4-57"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers\\contactController.ts",
+      "name": "./engine/frontend/src/modules/contact/controllers/contactController.ts",
+      "index": 8,
+      "index2": 3,
+      "size": 305,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers /^\\.\\/.*Controller$/",
+      "profile": {
+        "factory": 445,
+        "building": 842
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\contact\\controllers /^\\.\\/.*Controller$/",
+          "module": "./engine/frontend/src/modules/contact/controllers ^\\.\\/.*Controller$",
+          "moduleName": "./engine/frontend/src/modules/contact/controllers ^\\.\\/.*Controller$",
+          "type": "context element",
+          "userRequest": "./contactController"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module').controller(moduleName + 'Controller', ['$scope', function ($scope) {\n        console.log(moduleName + 'Controller');\n    }]);\n};"
+    },
+    {
+      "id": 9,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\indexModule.ts",
+      "name": "./engine/frontend/src/modules/index/indexModule.ts",
+      "index": 9,
+      "index2": 8,
+      "size": 252,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+      "profile": {
+        "factory": 11,
+        "building": 1490
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules /^\\.\\/.*Module$/",
+          "module": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "moduleName": "./engine/frontend/src/modules ^\\.\\/.*Module$",
+          "type": "context element",
+          "userRequest": "./index/indexModule"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module', []);\n    require('./controllers/' + moduleName + 'Controller')(moduleName);\n};"
+    },
+    {
+      "id": 10,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers /^\\.\\/.*Controller$/",
+      "name": "./engine/frontend/src/modules/index/controllers ^\\.\\/.*Controller$",
+      "index": 10,
+      "index2": 7,
+      "size": 182,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\indexModule.ts",
+      "profile": {
+        "factory": 3,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\indexModule.ts",
+          "module": "./engine/frontend/src/modules/index/indexModule.ts",
+          "moduleName": "./engine/frontend/src/modules/index/indexModule.ts",
+          "type": "cjs require context",
+          "userRequest": "./controllers",
+          "loc": "8:4-57"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers\\indexController.ts",
+      "name": "./engine/frontend/src/modules/index/controllers/indexController.ts",
+      "index": 11,
+      "index2": 6,
+      "size": 3800,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers /^\\.\\/.*Controller$/",
+      "profile": {
+        "factory": 4,
+        "building": 1273
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\modules\\index\\controllers /^\\.\\/.*Controller$/",
+          "module": "./engine/frontend/src/modules/index/controllers ^\\.\\/.*Controller$",
+          "moduleName": "./engine/frontend/src/modules/index/controllers ^\\.\\/.*Controller$",
+          "type": "context element",
+          "userRequest": "./indexController"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../../typings/tsd.d.ts\" />\nmodule.exports = function (moduleName) {\n    'use strict';\n\n    angular.module(moduleName + 'Module').controller(moduleName + 'Controller', ['$scope', function ($scope) {\n        $scope.text = 'Hello World!';\n        console.log(moduleName + 'Controller');\n        /**\r\n         * Method for custom error expression\r\n         * @param {string} message -> message that will be showed to user on error\r\n         */\n        function CustomExpression(message) {\n            this.message = message;\n        }\n        //verify prime number\n        /**\r\n         * Check if number is prime\r\n         * @param {number} numberToVerify -> number that must pass prime number verify\r\n         */\n        /*\r\n        function isPrimeNumber(numberToVerify : number) {\r\n            if (!numberToVerify) {\r\n                throw new CustomExpression('Empty parameter in: \"isPrimeNumber\"');\r\n            }\r\n            else if (typeof numberToVerify !== 'number') {\r\n                throw new CustomExpression('Wrong type of parrameter in: \"isPrimeNumber\". Must be a number');\r\n            }\r\n            \r\n         \r\n            let delimeter : number = 2;\r\n            \r\n            while (numberToVerify > delimeter) {\r\n                if (numberToVerify % delimeter === 0) {\r\n                    return false;\r\n                } else {\r\n                     (delimeter > 3) ? delimeter += 2 : delimeter++;\r\n                }\r\n                \r\n            }\r\n            return true;\r\n            \r\n        }\r\n        \r\n          \r\n        try {\r\n             console.log(isPrimeNumber(137));\r\n            // console.log(isPrimeNumber(237));\r\n        } catch (e) {\r\n            console.log(e.message);\r\n        }*/\n        /*console.log(isPrime(137))\r\n        console.log(isPrime(237))*/\n        /*function removeDuplicate(arr) {\r\n            var exist = {},\r\n                outArr = [],\r\n                elem;\r\n                \r\n                for (var i = 0; i < arr.length; i++) {\r\n                    elem = arr[i];\r\n                    if (!exist[elem]) {\r\n                        outArr.push(elem);\r\n                        exist[elem] = true;\r\n                    }\r\n                    \r\n                }\r\n                return outArr;\r\n        }\r\n            \r\n            console.log(removeDuplicate([1,3,3,3,1,5,6,7,8,1]));*/\n        /* function swapNmuber(a,b) {\r\n             b = b - a;\r\n             a = b + a;\r\n             b = a - b;\r\n             \r\n             console.log(a, b);\r\n         }\r\n         \r\n         swapNmuber(10,5);*/\n        /*    function reverse(str) {\r\n               var tempArr = str.split(''),\r\n               resArr = [];\r\n               \r\n               for (var i = tempArr.length-1; i >= 0; i--) {\r\n                   resArr.push(tempArr[i])\r\n               }\r\n               \r\n               return resArr.join('');\r\n               \r\n            }\r\n            \r\n            console.log(reverse('some str'));*/\n        /*    function compareNumeric(a, b) {\r\n                return a - b;\r\n            }\r\n            \r\n            var arr = [1, 54,23,6];\r\n            console.log(arr.sort(compareNumeric));*/\n        /*  function reverseWords(str) {\r\n              return str.split(' ').reverse().join(' ').split('').reverse().join('');\r\n          }\r\n          \r\n          console.log(reverseWords(\"I am the good boy\"));*/\n        /* function fibonacci(a) {\r\n             var fibo = [0,1];\r\n             \r\n             if (a < 2) return 1;\r\n             \r\n             for (var i = 2; i <= a; i++) {\r\n                 fibo[i] = fibo[i - 1] + fibo[i - 2];\r\n             }\r\n             \r\n             return fibo[a];\r\n         }\r\n         \r\n         console.log(fibonacci(12));*/\n    }]);\n};"
+    },
+    {
+      "id": 12,
+      "identifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\routes\\routes.ts",
+      "name": "./engine/frontend/src/app/routes/routes.ts",
+      "index": 12,
+      "index2": 11,
+      "size": 792,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+      "profile": {
+        "factory": 12,
+        "building": 1214
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "C:\\xampp\\htdocs\\hamsterProject\\node_modules\\babel-loader\\index.js?presets=es2015!C:\\xampp\\htdocs\\hamsterProject\\node_modules\\webpack-typescript\\lib\\index.js!C:\\xampp\\htdocs\\hamsterProject\\engine\\frontend\\src\\app\\index.ts",
+          "module": "./engine/frontend/src/app/index.ts",
+          "moduleName": "./engine/frontend/src/app/index.ts",
+          "type": "cjs require",
+          "userRequest": "./routes/routes",
+          "loc": "7:0-26"
+        }
+      ],
+      "source": "'use strict';\n\n/// <reference path=\"../../../../../typings/tsd.d.ts\" />\nmodule.exports = function () {\n    'use strict';\n\n    var mainAppViewPath = '/app/views',\n        moduleViewPath = '/modules';\n    angular.module('mainApp').config(['$routeProvider', function ($routeProvider) {\n        $routeProvider.when('/', {\n            templateUrl: moduleViewPath + '/index/views/index.html',\n            controller: 'indexController'\n        }).when('/about', {\n            templateUrl: moduleViewPath + '/about/views/about.html',\n            controller: 'aboutController'\n        }).when('/contacts', {\n            templateUrl: moduleViewPath + '/contact/views/contact.html',\n            controller: 'contactController'\n        }).otherwise({\n            redirectTo: '/'\n        });\n    }]);\n}();"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
