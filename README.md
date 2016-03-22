@@ -17,7 +17,7 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <b>Bootstrap</b>
 
-<b>Jade engine on front end and back end</b>
+<b>Jade engine</b> on front end and back end
 
 <b>Karma + Jasmine</b> (Protractor in future)
 
