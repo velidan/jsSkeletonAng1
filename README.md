@@ -31,4 +31,4 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 
 <i>After repo cloning execute -  <b>npm i</b> </i> <br><br>
-To server start please launch /engine/server/built/server.js by executing  (node server.js)  or  (nodemon server.js) if you use nodemon
+To start the server, please, launch /engine/server/built/server.js by executing  (node server.js)  or  (nodemon server.js) if you use nodemon, server will be started at 8080 port (you will see msg in console)
