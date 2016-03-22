@@ -31,5 +31,5 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 
 <i>After repo cloning execute -  <b>npm i</b> </i> <br><br>
-When all package will be installed, you must launch - <b>gulp</b>  from app root folder from your terminal. Gulp build all src files to built folder and stop self into watch mode (you can change src files, and gulp execute some task for this file types (css/ts/jade/etc) <br> 
+When all package will be installed, you must launch - <b>gulp</b>  from app root folder from your terminal. Gulp build all src files to built folder and stop self into watch mode (you can change src files, and gulp execute some task for this file types (css/ts/jade/etc) <br> <br>
 To start the server, please, launch /engine/server/built/server.js by executing  (node server.js)  or  (nodemon server.js) if you use nodemon, server will be started at 8080 port (you will see msg in console)
