@@ -19,15 +19,16 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <b>Jade engine</b> on front and back
 
-<b>Karma + Jasmine</b> (Protractor in future)
+<b>Karma + Jasmine</b> (Protractor in future) <br>
 
-/src (in all main folders: server | backend | frontend) - source files that will be compiled by bundle systems
-/buil (in all main folders: server | backend | frontend) - builded files 
+/src (in all main folders: server | backend | frontend) - source files that will be compiled by bundle systems<br>
 
-/engine  - engine folder
+/buil (in all main folders: server | backend | frontend) - builded files <br>
 
-/engine/server - server files
+/engine  - engine folder <br>
+
+/engine/server - server files <br>
 
 
-<i>After repo cloning execute -  <b>npm i</b> </i>
+<i>After repo cloning execute -  <b>npm i</b> </i> <br>
 To server start please launch /engine/server/built/server.js by executing  (node server.js)  or  (nodemon server.js) if you use nodemon
