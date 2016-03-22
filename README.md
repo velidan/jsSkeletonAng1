@@ -13,7 +13,7 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <b>Gulp</b>
 
-<b>Stylus</b> (Retina-ready  auto-generated sprites)
+<b>Stylus</b> (Auto-generated retina-ready sprites)
 
 <b>Bootstrap</b>
 
