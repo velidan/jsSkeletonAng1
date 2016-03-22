@@ -5,7 +5,7 @@ Enterprize js modularity skeleton based on node (back) and angular 1 (front)
 
 <b>Angular 1  (1.5.3)</b>  on frontend
 
-<b>Node + koa</b>   on backend   (WebSocket ready  server    - ws)
+<b>Node + koa</b>   on backend   (WebSocket-server included also - ws module)
 
 <b>Typescript + TSD + ES6</b> integrate with front and backend
 
